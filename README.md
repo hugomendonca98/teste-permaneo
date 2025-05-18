@@ -5,6 +5,9 @@ Teste de Frontend — Grupo Permaneo
 
 Este projeto consiste em um teste prático de frontend para o Grupo Permaneo, focado no desenvolvimento de uma plataforma de cursos online.
 
+![image](https://github.com/user-attachments/assets/3ae42b5f-2f40-4d14-b2d3-1b70b53fa78c)
+
+
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
