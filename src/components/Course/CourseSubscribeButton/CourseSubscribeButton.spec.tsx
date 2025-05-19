@@ -2,6 +2,12 @@ import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 import { CourseSubscribeButton } from './CourseSubscribeButton'
 
+vi.mock('next/navigation', () => ({
+  useRouter: () => ({
+    push: vi.fn(),
+  }),
+}))
+
 describe('CourseSubscribeButton', () => {
   it('should be able to render CourseSubscribeButton component correctly', () => {
     render(
