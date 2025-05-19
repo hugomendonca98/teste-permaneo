@@ -50,8 +50,6 @@ export default async function page({ params }: { params: Params }) {
           <CoursePlayer
             videoId={Number(id)}
             options={{
-              // autoplay: true,
-              // muted: true,
               controls: true,
               fluid: true,
               poster:

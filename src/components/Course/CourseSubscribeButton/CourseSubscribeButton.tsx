@@ -34,7 +34,7 @@ export function CourseSubscribeButton({ course }: ICourseSubscribeButton) {
         data-testid="subscribe-button"
         className="w-full md:w-auto"
       >
-        Inscrevase-se agora
+        Inscreva-se agora
       </Button>
     </>
   )
