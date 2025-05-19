@@ -20,6 +20,6 @@ describe('CourseSubscribeButton', () => {
     const subscribeButton = screen.getByTestId('subscribe-button')
 
     expect(courseCreatedAt.textContent).toBe('O curso começa em: 15/01/2023')
-    expect(subscribeButton.textContent).toBe('Inscrevase-se agora')
+    expect(subscribeButton.textContent).toBe('Inscreva-se agora')
   })
 })
